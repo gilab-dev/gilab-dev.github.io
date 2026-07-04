@@ -3,9 +3,10 @@
 <head>
     <title>My Play Store Web</title>
     <style>
+        body { margin: 0 }
         .contents {
-width: 50%; //?
-height: 100px; //?
+            width: 30%;
+            height: 100px;
 
             position: absolute;
             top: 0;
@@ -21,14 +22,23 @@ height: 100px; //?
             width: 100vw;
             height: 100vh;
             position: relative;
+            margin: 0;
+        }
+        .title {
+            font-size: 5rem;
+            text-align: left;
+        }
+        .subtitle {
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1>안녕하세요! 개발자 웹사이트입니다.</h1>
+    <!--<h1>안녕하세요! 개발자 웹사이트입니다.</h1>-->
     <div class="container">
         <div class="contents">
-            <h1>지랩(GiLab)</h1>
+            <h1 class="title">지랩(GiLab)</h1>
+            <h1 class="subtitle">: G's Internet Laboratory</h1>
         </div>
     </div>
 </body>
