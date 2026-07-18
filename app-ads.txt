@@ -1,3 +1,4 @@
 # 간편 대출 계산기
 google.com, pub-7498600902834094, DIRECT, f08c47fec0942fa0
-
+# known3328
+google.com, pub-3586824970747783, DIRECT, f08c47fec0942fa0
